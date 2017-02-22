@@ -1,0 +1,22 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+#landing{
+  height: 100%;
+  background-color: #000;
+  background-image: url("../images/idea1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+#landing h1{
+  color: white;
+  position: relative;
+  float: left;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
