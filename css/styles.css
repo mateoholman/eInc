@@ -3,20 +3,43 @@ html, body{
   margin: 0;
 }
 
-#landing{
-  height: 100%;
+#title{
+  height: 20%;
   background-color: #000;
-  background-image: url("../images/idea1.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: 1px solid black;
+  width: 100%;
 }
 
-#landing h1{
+#light_bulb h1{
+  font-family: 'Poiret One', cursive;
+  font-weight: normal;
+  font-size: 4em;
+  max-width: 30%;
   color: white;
   position: relative;
   float: left;
+  clear: both;
   top: 20%;
+  left: 10%;
+  /*transform: translate(-50%, -50%);*/
+}
+
+#light_bulb{
+  height: 80%;
+  width: 100%;
+  background-color: #000;
+  background-image: url("../images/idea2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid black;
+}
+
+/*#landing h2{
+  color: white;
+  position: relative;
+  float: left;
+  clear: both;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}*/
